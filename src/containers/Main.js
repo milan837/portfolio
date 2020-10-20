@@ -29,7 +29,7 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+    const darkPref = window.matchMedia("(prefers-color-scheme: light)");
     this.setState({ isDark: darkPref.matches });
   }
   changeTheme = () => {
@@ -48,15 +48,14 @@ export default class Main extends Component {
           <StackProgress />
           <Education />
           <WorkExperience />
-          <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
+          {/* <StartupProject /> */}
+          {/* <Achievement /> */}
+          {/* <Blogs /> */}
+          {/* <Talks /> */}
+          {/* <Twitter /> */}
+          {/* <Podcast /> */}
           <Profile />
-          <Footer />
+          {/* <Footer /> */}
           <Top />
         </StyleProvider>
       </div>

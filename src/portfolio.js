@@ -7,35 +7,34 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Milan Shrestha",
+  title: "Hi all, I'm Milan",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with (Java & Kotlin)/ JavaScript / Reactjs / Nodejs / React Native / MYSQL and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/0ByIFnTjPbxe5cnJJOVNrOTJkWVNlN2tSdTJETTRPbGJ5VTZV/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  linkedin: "https://www.linkedin.com/in/milan-shrestha-545ba1145/",
+  gmail: "milanshrestha837@gmail.com",
+  facebook: "https://www.facebook.com/profile.php?id=100005780642091",
+  instagram:"https://www.instagram.com/anill_shrestha/",
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
-
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK (MOBILE & WEB) DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Develop highly interactive mobile applications for Android (JAVA & Kotlin)"),
+    emoji("⚡ Develop highly interactive mobile applications for both Android & IOS (REACT NATIVE)"),
+    emoji("⚡ Develop highly interactive web applications (REACT Js)"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop Rest api using Node.js and MYSQL"),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS ")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,23 +42,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },,
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
+      skillName: "React Native",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -67,15 +54,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MYSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -87,12 +70,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "XD",
+      fontAwesomeClassname: "fab fa-adobe"
     }
   ]
 };
@@ -103,79 +98,107 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "R.R. Institute of Technology (Bangalore)",
+      logo: require("./assets/images/rrrr.jpeg"),
+      subHeader: "Bachelor in computer science engineering",
+      duration: "2016 - 2019",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "R.R. Institute of Technology (Bangalore)",
+      logo: require("./assets/images/rrrr.jpeg"),
+      subHeader: "Diploma in computer science & engineering",
+      duration: "2013 - 2016",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
     }
   ]
 }
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Android Application Development",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Node js & MYSQL (Backend Development)",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "React js & Ant Design (Web Development)",  //Insert stack or technology you have experience in
+      progressPercentage: "70%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "React Native cross platform mobile app development",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "AWS services (EC2, AWS Amplifiy, S3, Route 53)",  //Insert stack or technology you have experience in
+      progressPercentage: "50%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "PHP & MYSQL (Slim framework) ",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "HTML, CSS, Jquery, AJAX",  //Insert stack or technology you have experience in
+      progressPercentage: "40%"  //Insert relative proficiency in percentage
+    },
   ]
 };
 
 
 // Your top 3 work experiences
-
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      link:"https://bit.ly/smartshaalaa",
+      role: "Founder & Developer",
+      company: "Smartshaalaa",
+      companylogo: "https://lh3.googleusercontent.com/eoT0s_3p-nX5Kco4IXf2ri9gJcnMyUPfo7fcpA6hS7mUf-uZxBvEE-1_UKWDxsYIEsgV=s360-rw",
+      date: "July 2020 – Present",
+      desc:"Smartshaalaa helps all retailers in managing (inventory management, invoicing, billing, storing them in the cloud for free) and helps to grow their business faster with the help of online stores opened automatically by Smartshaalaa."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      // link:"https://bit.ly/mydukkan",
+      link:"https://mydukanretailer.com/",
+      role: "Mobile Application Developer",
+      company: "MyDukan",
+      companylogo: "https://lh3.googleusercontent.com/ObQkr9RqkijQO7N49XY7wJRxrVRq9yD25nov-Rgjly_f8DWL_WBUbFdYMO5eaC22ayNE=s360-rw",
+      date: "July 2019 – July 2020",
+      desc: "Digiretail provides technology first solutions to SMBs for efficient supply-chain management by making them market aware with data trends, helping them with supplier relationship management, CRM and Product lifecyle managemnet."
     },
     {
+      link:"https://bit.ly/kloh1aa",
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Kloh",
+      companylogo: "https://lh3.googleusercontent.com/4ABE8NjsPTdVMH5wc5-bdT_7IppgT6_6DyVUwiVMFcF2YUAUzUEVZxO60FV2QFaWSuU=s360-rw",
+      date: "Jun 2018 – Aug 2018",
+      desc: "KLOH is the easiest way to learn a new hobby class near you. From Salsa to Horse-Riding, from Swimming to Pottery, you can learn anything on Kloh. With Kloh, discover and join the best classes, workshops near you and learn your favourite hobby."
+    },
+    {
+      link:"https://bit.ly/voice-news",
+      role: "Creator (Developer)",
+      company: "Voice News",
+      companylogo: "https://lh3.googleusercontent.com/0oLpzUXLY85MabiDuKq_OSYDOnkHYr7KBzhM8zQmUZ-SWSpXCk4Kbe03Lo1TPGM2oq8=s360-rw",
+      date: "2018",
+      desc: "Voice News is an android application that helps the peoples to surf the news in different way than the other application. User can listen the latest news from top news websites by the google voice service that we integrate in our app an also they can read the news.Voice News provide the Latest news headlines and summarized news content to the user"
+    },
+    {
+      link:"https://bit.ly/myoutfitsa",
+      role: "Creator (Developer)",
+      company: "My Outfits",
+      companylogo:"https://lh3.googleusercontent.com/SSmb9Xrbb2VCMwsgCVv5UupOindB00gFC9uFX9siUqyE-pBdpG0ujSZlE0ZhQDkL39o=s360-rw",
+      date: "2018",
+      desc:"My Outfits app is an platform where user can make their fashion collection and save it online in different categories. My Outfits app allows all users to track their items from collection and also they can track each day Outfits. We will show you the best product base upon your collection from different fashion websites. and you can add that to you collection after buying it"
     },
   ]
 };
@@ -191,18 +214,19 @@ const openSource = {
 
 
 // Some Big Projects You have worked with your company
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/smartshaalaa_icon.svg"),
+      link: "http://smartshaalaa.com/",
+      company: "Smartshaalaa",
+      desc: "Inventory Management, Invoicing(Billing), & Online Store.",
+      date: "",
+      companylogo: require("./assets/images/smartshaalaa_icon.svg"),
+      role: "Founder & Software developer",
+      descBullets: []
     }
   ]
 };
@@ -294,14 +318,13 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8050078113",
+  email_address: "milanshrestha837@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
-
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };

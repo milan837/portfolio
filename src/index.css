@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+  src: local('Montserrat'), url('./assets/fonts/DMSans-Regular.ttf');
   font-display: swap;
 }
 code {

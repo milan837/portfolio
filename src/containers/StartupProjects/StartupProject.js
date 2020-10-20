@@ -3,6 +3,7 @@ import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -26,13 +27,25 @@ export default function StartupProject() {
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
+              {bigProjects.projects.map((card) => {
                 return (
                   <div
                     className="saaya-health-div"
-                    onClick={() => openProjectInNewWindow(project.link)}
+                    onClick={() => openProjectInNewWindow(card.link)}
                   >
-                    <img alt="Saad Working" src={project.image}></img>
+                    
+                    <ExperienceCard
+                      isDark={isDark}
+                      cardInfo={{
+                        company: card.company,
+                        desc: card.desc,
+                        date: card.date,
+                        companylogo: card.companylogo,
+                        role: card.role,
+                        descBullets: card.descBullets
+                      }}
+                    />
+                    
                   </div>
                 );
               })}
