@@ -16,7 +16,7 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/milan837",
   linkedin: "https://www.linkedin.com/in/milan-shrestha-545ba1145/",
   gmail: "milanshrestha837@gmail.com",
   facebook: "https://www.facebook.com/profile.php?id=100005780642091",
