@@ -8,8 +8,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Milan Shrestha",
-  title: "Hi all, I'm Milan",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with (Java & Kotlin)/ JavaScript / Reactjs / Nodejs / React Native / MYSQL and some other cool libraries and frameworks."),
+  title: "Hi there, I'm Milan Shrestha",
+  subTitle: emoji("A passionate Software Design Engineer 🚀 having an experience of building (Mobile, Web & PC) software with (Java & Kotlin), JavaScript, Reactjs, Nodejs, React Native, MYSQL, MongoDB, AWS services and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/0ByIFnTjPbxe5cnJJOVNrOTJkWVNlN2tSdTJETTRPbGJ5VTZV/view?usp=sharing"
 };
 
@@ -26,8 +26,8 @@ const socialMediaLinks = {
 
 // Your Skills Section
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK (MOBILE & WEB) DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What i love to do",
+  subTitle: "Crazy full stack (MOBILE & WEB) developer who wants to explore every tech stack.",
   skills: [
     emoji("⚡ Develop highly interactive mobile applications for Android (JAVA & Kotlin)"),
     emoji("⚡ Develop highly interactive mobile applications for both Android & IOS (REACT NATIVE)"),
@@ -124,33 +124,41 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Android Application Development",  //Insert stack or technology you have experience in
+      Stack: "React Native cross platform mobile app development (ANDROID & IOS)",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Node js & MYSQL (Backend Development)",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      Stack: "AWS services (EC2, AWS Amplifiy, S3, Route 53, Simple Notification Service, Simple Email Service, CodeCommit, CodePipeline,Elastic Beanstalk,MQTT)",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "React js & Ant Design (Web Development)",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Firebase services (Cloud Firestore, Cloud Functions, Authentication, Hosting, Cloud Storage, Google Analytics, Cloud Messaging.)",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "React Native cross platform mobile app development",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      Stack: "Node js & MYSQL, mongoBD (Backend Development)",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "AWS services (EC2, AWS Amplifiy, S3, Route 53)",  //Insert stack or technology you have experience in
-      progressPercentage: "50%"  //Insert relative proficiency in percentage
+      Stack: "React js & (Ant Design, Material UI) (Web Development)",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
+    },    {
+      Stack: "UI/UX (Figma, Adobe XD, Framer )",  //Insert stack or technology you have experience in
+      progressPercentage: "85%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "PHP & MYSQL (Slim framework) ",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "HTML, CSS, Jquery, AJAX",  //Insert stack or technology you have experience in
-      progressPercentage: "40%"  //Insert relative proficiency in percentage
+      Stack: "HTML, CSS, Jquery, AJAX, Javascript",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
+    {
+      Stack: "Agile software development",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
+    },
+    
   ]
 };
 

@@ -1,4 +1,4 @@
-﻿import React, { useContext } from "react";
+﻿import React, { useContext,useState } from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -9,6 +9,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -42,10 +43,21 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
-            <img
+          <div className="greeting-image-div" style={{textAlign: "center"}}>
+            {/* <img
               alt="saad sitting on table"
               src={require("../../assets/images/manOnTable.svg")}
+            ></img> */}
+
+            <img
+              alt="Milan shrestha"
+              src={require(`../../assets/images/${
+                isDark ? "me.jpg" : "me.jpg"
+              }`)} style={{
+                width:400,
+                borderRadius:20,
+                boxShadow: isDark ? "0px 0px 20px 0px #171c10" : "0px 0px 20px 0px #aaa" 
+                }}
             ></img>
           </div>
         </div>
