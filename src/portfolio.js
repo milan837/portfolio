@@ -168,12 +168,20 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      link:"https://iamalive.app/index.html",
+      role: "Senior Mobile Application Engineer (Android & IOS)",
+      company: "Alive",
+      companylogo: "https://play-lh.googleusercontent.com/bHCMzLniUoSlUDtUZtGqzKdOg1IGTkjd0TX29HLe6Gzlxo0G_XhOkg9aV9oHF0BUpaQ=s360-rw",
+      date: "Nov 2020 – June 2021",
+      desc:"Alive is created for us to be more social, to have more fun, to spend more time with our friends."
+    },
+    {
       link:"https://bit.ly/smartshaalaa",
       role: "Founder & Developer",
       company: "Smartshaalaa",
       companylogo: "https://lh3.googleusercontent.com/eoT0s_3p-nX5Kco4IXf2ri9gJcnMyUPfo7fcpA6hS7mUf-uZxBvEE-1_UKWDxsYIEsgV=s360-rw",
       date: "July 2020 – Present",
-      desc:"Smartshaalaa helps all retailers in managing (inventory management, invoicing, billing, storing them in the cloud for free) and helps to grow their business faster with the help of online stores opened automatically by Smartshaalaa."
+      desc:"Smartshaalaa helps all retailers in managing (inventory management, invoicing, billing, storing them in the cloud for free) and helps to grow their business faster."
     },
     {
       // link:"https://bit.ly/mydukkan",
@@ -182,7 +190,7 @@ const workExperiences = {
       company: "MyDukan",
       companylogo: "https://lh3.googleusercontent.com/ObQkr9RqkijQO7N49XY7wJRxrVRq9yD25nov-Rgjly_f8DWL_WBUbFdYMO5eaC22ayNE=s360-rw",
       date: "July 2019 – July 2020",
-      desc: "Digiretail provides technology first solutions to SMBs for efficient supply-chain management by making them market aware with data trends, helping them with supplier relationship management, CRM and Product lifecyle managemnet."
+      desc: "Digiretail provides technology first solutions to SMBs for efficient supply-chain management by making them market aware with data trends, CRM and Product lifecyle managemnet."
     },
     {
       link:"https://bit.ly/kloh1aa",
@@ -190,7 +198,7 @@ const workExperiences = {
       company: "Kloh",
       companylogo: "https://lh3.googleusercontent.com/4ABE8NjsPTdVMH5wc5-bdT_7IppgT6_6DyVUwiVMFcF2YUAUzUEVZxO60FV2QFaWSuU=s360-rw",
       date: "Jun 2018 – Aug 2018",
-      desc: "KLOH is the easiest way to learn a new hobby class near you. From Salsa to Horse-Riding, from Swimming to Pottery, you can learn anything on Kloh. With Kloh, discover and join the best classes, workshops near you and learn your favourite hobby."
+      desc: "KLOH is the easiest way to learn a new hobby class near you. From Salsa to Horse-Riding, from Swimming to Pottery, you can learn anything on Kloh."
     },
     {
       link:"https://bit.ly/voice-news",
@@ -198,7 +206,7 @@ const workExperiences = {
       company: "Voice News",
       companylogo: "https://lh3.googleusercontent.com/0oLpzUXLY85MabiDuKq_OSYDOnkHYr7KBzhM8zQmUZ-SWSpXCk4Kbe03Lo1TPGM2oq8=s360-rw",
       date: "2018",
-      desc: "Voice News is an android application that helps the peoples to surf the news in different way than the other application. User can listen the latest news from top news websites by the google voice service that we integrate in our app an also they can read the news.Voice News provide the Latest news headlines and summarized news content to the user"
+      desc: "Voice News is an android application that helps the peoples to surf the news in different way than the other application."
     },
     {
       link:"https://bit.ly/myoutfitsa",
@@ -206,7 +214,7 @@ const workExperiences = {
       company: "My Outfits",
       companylogo:"https://lh3.googleusercontent.com/SSmb9Xrbb2VCMwsgCVv5UupOindB00gFC9uFX9siUqyE-pBdpG0ujSZlE0ZhQDkL39o=s360-rw",
       date: "2018",
-      desc:"My Outfits app is an platform where user can make their fashion collection and save it online in different categories. My Outfits app allows all users to track their items from collection and also they can track each day Outfits. We will show you the best product base upon your collection from different fashion websites. and you can add that to you collection after buying it"
+      desc:"My Outfits app is an platform where user can make their fashion collection and save it online in different categories."
     },
   ]
 };
