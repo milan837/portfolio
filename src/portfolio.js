@@ -186,11 +186,11 @@ const workExperiences = {
     {
       // link:"https://bit.ly/mydukkan",
       link:"https://mydukanretailer.com/",
-      role: "Mobile Application Developer",
+      role: "Mobile Application Engineer (Android)",
       company: "MyDukan",
       companylogo: "https://lh3.googleusercontent.com/ObQkr9RqkijQO7N49XY7wJRxrVRq9yD25nov-Rgjly_f8DWL_WBUbFdYMO5eaC22ayNE=s360-rw",
       date: "July 2019 – July 2020",
-      desc: "Digiretail provides technology first solutions to SMBs for efficient supply-chain management by making them market aware with data trends, CRM and Product lifecyle managemnet."
+      desc: "Digiretail provides technology first solutions to SMBs for efficient supply-chain management by making them market aware with data trends."
     },
     {
       link:"https://bit.ly/kloh1aa",
