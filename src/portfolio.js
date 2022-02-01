@@ -168,6 +168,14 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      link:"https://play-lh.googleusercontent.com/ebY1g89cHwZQ0RSgK4p13Q8oUzAuXO94vWQgut9x16AxQQR1Ajg1FA7MEtFfVlFCihQ=s360-rw",
+      role: "Founder and developer",
+      company: "Deal Nepal",
+      companylogo: "https://play.google.com/store/apps/details?id=com.dealnepal",
+      date: "July 2021 – Current",
+      desc:"Deal Nepal is the perfect online marketplace to buy and sell locally! No need to visit the flea market to find the best deals on pre-owned items! "
+    },
+    {
       link:"https://iamalive.app/index.html",
       role: "Senior Mobile Application Engineer (Android & IOS)",
       company: "Alive",
